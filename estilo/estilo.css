@@ -1,0 +1,67 @@
+body
+{
+    background-color: #F1F1F1;
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav
+{
+    display: block;
+}
+
+#botao-hamburguer
+   { 
+    display: block;
+    background-color: transparent;
+    border: 0;
+    font-size: 24px;
+   }
+
+.container
+{
+    background-color: #6675ff;
+    width: 80%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+@media (min-width: 1280px)
+{
+
+   .container
+   {
+    background-color: #6675ff;
+    width: 30%;
+    height: 300px;
+    border-radius: 10px;
+   }
+
+   #botao-hamburguer
+   {
+       display: none;
+   }
+   nav
+    {
+    display: block;
+    }
+
+
+    
+    header
+    {
+
+    }
+
+}
+
+   
+
+
+    
+
+    
