@@ -1,0 +1,234 @@
+body
+{
+    background-color: #F1F1F1;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header
+{   
+    background-color:  #2152FF;
+    display: flex;
+    color: #FFF;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    
+}
+
+nav a
+{
+    text-decoration: none;
+    color: #FFF;
+
+
+}
+
+#botao-hamburguer
+   { 
+    display: flex;
+    background-color: transparent;
+    border: 0;
+    font-size: 24px;
+    color: #fff;
+   }
+
+
+
+nav 
+{
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+        display: none;
+    
+}
+
+h2
+{
+    
+width: 322px;
+height: 36px;
+flex-shrink: 0;
+color: #2152FF;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+}
+
+header h1
+{
+
+     justify-content: flex-start;
+     padding: 10px;
+
+}
+
+.cartao
+{
+    background-color: #FFF;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-content: center;
+    padding: 10px;
+}
+
+.container
+{
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   gap: 12px;
+
+}
+
+#area-servicos
+{
+    color: #2152FF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;;
+    padding: 2% 1%;
+}
+
+.foto
+{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    align-content: flex-end;
+   
+}
+
+.sala
+{
+    
+    width: 100%;
+    height:  100%;
+}
+
+#apresentacao
+{
+    padding: 2% 1%;
+}
+
+footer
+{
+
+  
+    width: 100%;
+    background: #2152FF;
+    color: #FFF;
+    
+    margin: 0;
+    text-align: center;
+}
+
+#agenda
+{
+    border:0;
+    background-color:rgba(33, 82, 255, 0.80);
+    color: #FFF;
+    border-radius: 10px;
+    width: 315px;
+    height: 34px;
+    text-align: center;
+    margin: 0 10px;
+    
+    
+}
+
+
+
+
+
+@media (min-width: 1280px) 
+{
+    .container
+    {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+    }
+    
+    nav{
+        display: block;
+    }
+
+    #botao-hamburguer
+    {
+        display: none;
+    }
+
+    .cartao
+{
+    background-color: #FFF;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer p
+{
+    font-size: 10px;
+}
+
+footer
+{
+
+    width: 100%;
+    background: #2152FF;
+    color: #FFF;
+    margin: 0;
+    padding: 0.5% 0;
+    
+}
+
+#agenda
+{
+    border:0;
+    background-color:rgba(33, 82, 255, 0.80);
+    color: #FFF;
+    border-radius: 10px;
+    width: 315px;
+    height: 34px;
+
+    
+    
+}
+.sala
+{
+    display: flex;
+    width: 100%;
+    height:  880.605px;
+}
+
+}
+
+
+    
+
+    
