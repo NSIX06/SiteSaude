@@ -38,15 +38,18 @@ nav a
    }
 
 
+nav a {
 
+    padding: 10px;
+    justify-content: space-around;
+}
 nav 
 {
     color: #FFF;
     display: flex;
     flex-direction: row;
     padding: 10px;
-    
-        display: none;
+     display: none;
     
 }
 
