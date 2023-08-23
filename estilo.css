@@ -117,6 +117,7 @@ header h1
    
 }
 
+
 .sala
 {
     
@@ -155,8 +156,72 @@ footer
     
 }
 
+#area-login{
 
+    margin: 0;
+}
 
+#area-login h1 {
+
+    display: flex;
+    color: #2152FF;
+    padding: 4% 30%;
+    margin: 0;
+    position: absolute;
+    justify-content: center;
+    
+}
+
+#area-login span{
+
+    display: flex;
+    padding: 8% 33%;
+    margin: 0;
+    position: absolute;
+    justify-content: space-around;
+
+}
+
+.doutora{
+
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 400px;
+    height: 650px;
+    margin: 0;
+    justify-content: left;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: 01px;
+    top: 25px;
+    gap: 10px;
+    padding: 10%;
+    width: 30%;
+    
+}
+
+form input[type="submit"]
+{
+    display: flex;
+   text-align: center;
+   align-content: center; 
+    width: 237px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    color: #F1F1F1;
+    border-radius: 10px;
+    border: 1px solid rgba(33, 82, 255, 0.80);
+    background: rgba(33, 82, 255, 0.80);
+    justify-content: center;
+}
 
 
 @media (min-width: 1280px) 
