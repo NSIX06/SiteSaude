@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal do Paciente</title>
+    
+    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -11,33 +13,63 @@
         <button id="botao-hamburguer">☰</button>
 
         <nav>
-            <a href="index.html">Início</a>
+            <a href="/index.html">Início</a>
             <a href="">Unidades</a>
             <a href="">Agendamentos</a>
             <a href="">Fale Conosco</a>
-            <a href="login.html">Acessar</a>
-        </nav>
+            <a href="/login.html">Acessar</a>
+            </nav>
 
         <h1>Saúde Plena</h1>
 
-        <img class= "doutora" src="https://cancerinstitutewia.in/wp-content/uploads/2022/10/alexandr-podvalny-tE7_jvK-_YU-unsplash-scaled.jpg" alt="">
     </header>
 
     <main>
-
-        <section id="area-login">
-            <h1>Portal do Paciente</h1>
-            <span>Área de acesso</span>
-
-            <form action="">
-                <label for="">E-mail:</label>
-                <input type="email" placeholder="Informe seu e-mail"> 
-                <label for="">Senha:</label>
-                <input type="password" placeholder="Informe sua senha">
-                <input type="submit" value="Entrar">
-            </form>
+        <section class="container-acess">
+        <h2>Portal do Paciente</h2>
+        <span>Área de acesso</span>
+        
+         
+        
+                <form>
+        <label for="email">E-mail:</label>
+        <input
+                    type="email"
+                    name="email"
+                    placeholder="Informe seu e-mail de cadastro"
+                  />
+        
+         
+        
+                  <label for="password">Senha:</label>
+        <input
+                    type="password"
+                    name="password"
+                    placeholder="Informe sua senha"
+                  />
+        
+         
+        
+                  <a href="">Esqueceu sua senha? Clique aqui.</a>
+        
+         
+        
+                  <div class="container-buttons">
+        <button type="submit">Acessar</button>
+        <span>Ou</span>
+        <button type="button">Cadastre-se</button>
+        </div>
+        </form>
         </section>
-
-    </main>
+        
+         
+        
+              <section class="container-banner">
+        <img
+                  src="/estilo/584af1c349ac30fc84eaa6284c93a3e6.jfif"
+                  alt="banner da aba de acesso"
+                />
+        </section>
+        </main>
 </body>
 </html>
